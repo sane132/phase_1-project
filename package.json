@@ -1,6 +1,12 @@
 {
+  "name": "jengakit-json-server",
+  "version": "1.0.0",
+  "description": "Fake REST API for Jengakit Shop",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",  
-    "dev": "json-server --watch db.json --port 3000"
+    "start": "json-server --watch db.json --port 10000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
   }
 }

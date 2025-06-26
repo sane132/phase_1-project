@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Mock API URL (replace with your actual API endpoint)
-    const API_URL = "http://localhost:3000/products";
+   const API_URL =  "https://phase-1-json-server-8iak.onrender.com";
     
     // Initialize data
     let products = [];

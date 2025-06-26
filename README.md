@@ -1,36 +1,97 @@
-# phase_1-project
-# Jengakit Shop
+Jengakit Shop - E-Commerce Web Application
+📌 Overview
+Jengakit Shop is a modern, responsive e-commerce web application built with HTML, CSS, and JavaScript. It features product listings, shopping cart functionality, wishlist capabilities, and product management tools.
 
-A single-page e-commerce app built with HTML, CSS, and JavaScript.  
-Products are loaded from a local `db.json` using `json-server`.  
+✨ Key Features
+Product Catalog with search and category filtering
 
-## Features
+Shopping Cart with quantity adjustment
 
-- Product listing with image, price, and category
-- Add to cart
-- Cart sidebar with total cost
-- Dark mode toggle
-- Search and filter products
-## Technologies used
--HTML
--CSS
--JAVASCRIPT
+Wishlist functionality with local storage persistence
 
+Product Management (Add/Edit/Delete products)
 
-## Run Locally
+Dark Mode toggle
 
-1. Clone this repo
-2. Run `json-server`:
+Responsive Design works on all devices
 
-3. Open `index.html` in your browser
+Interactive UI with notifications and modals
 
-## Author
+🛠️ Technologies Used
+Frontend: HTML5, CSS3, JavaScript (ES6+)
 
-Mohamed Ibrahim Ahmed
+Styling: CSS Flexbox, Grid, Animations
 
-## project structure
-jengakit/
-├── index.html
-├── style.css
-├── script.js
-├── db.json
+Icons: Font Awesome
+
+Backend: JSON Server (mock API)
+
+Deployment: Render (for backend API)
+
+🚀 Getting Started
+Prerequisites
+Modern web browser (Chrome, Firefox, Safari)
+
+Node.js (for local development)
+
+Git (for version control)
+
+Installation
+Clone the repository:
+
+bash
+git clone https://github.com/yourusername/jengakit-shop.git
+cd jengakit-shop
+For local development with JSON Server:
+
+bash
+npm install -g json-server
+json-server --watch db.json --port 3000
+Open index.html in your browser.
+
+🌐 API Endpoints
+The application uses a mock API with these endpoints:
+
+GET /products - Fetch all products
+
+POST /products - Add new product
+
+PUT /products/:id - Update product
+
+DELETE /products/:id - Remove product
+
+🖥️ Project Structure
+text
+jengakit-shop/
+├── index.html          # Main HTML file
+├── style.css           # All CSS styles
+├── script.js           # Main JavaScript file
+├── db.json             # Mock database
+├── README.md           # This file
+└── assets/             # Image assets
+🔧 Customization
+To customize the products, edit the db.json file:
+
+json
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product Name",
+      "price": "$19.99",
+      "category": "electronics",
+      "image": "image-url.jpg"
+    }
+  ]
+}
+📝 License
+This project is licensed under the MIT License.
+
+🙏 Acknowledgments
+Font Awesome for icons
+
+Unsplash for sample product images
+
+JSON Server for mock API functionality
+
+Happy Shopping! 🛍️
