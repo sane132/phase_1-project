@@ -1,0 +1,91 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone",
+      "price": "$599.99",
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80"
+    },
+    {
+      "id": 2,
+      "name": "T-Shirt",
+      "price": "$19.99",
+      "category": "clothing",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Novel Book",
+      "price": "$9.99",
+      "category": "books",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Laptop",
+      "price": "$999.99",
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80"
+    },
+    {
+      "id": 5,
+      "name": "Jeans",
+      "price": "$49.99",
+      "category": "clothing",
+      "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80"
+    },
+    {
+      "id": 6,
+      "name": "Textbook",
+      "price": "$79.99",
+      "category": "books",
+      "image": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1588&q=80"
+    },
+    {
+      "id": 7,
+      "name": "Collections",
+      "price": "$999.99",
+      "category":"books",
+      "image": "images/library.jpg"
+
+    },
+
+{
+"id": 8,
+"name": "camera",
+"price": "$125",
+"category": "electronics",
+"image": "images/camera.jpg"
+},
+{
+  "id": 9,
+  "name": "iphone",
+  "price": "$150",
+  "category" :"electronics",
+  "image": "images/iphone.jpg"
+},
+{
+  "id": 10,
+  "name":"men wearings",
+  "price": "$200",
+  "category":"clothing",
+  "image": "images/men wearings.jpg"
+},
+{
+  "id":11,
+  "name":"t.shirts",
+  "price": "$20",
+  "category":"clothing",
+  "image":"images/t.shirt.jpg"
+},
+{
+  "id": 12,
+  "name": "watch",
+  "price": "$50",
+  "category":"electronics",
+  "image": "images/watch.jpg"
+}
+
+  ]
+}

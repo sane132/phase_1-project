@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jengakit Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🛍️ Jengakit Shop</h1>
+        <p class="subtitle">Discover. Search. Try our online shop experience!</p>
+        <div class="header-controls">
+            <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+            <div id="cartToggle">🛒 Cart (<span id="cartCount">0</span>)</div>
+            <div id="likesCount">❤️ <span id="totalLikes">0</span></div>
+        </div>
+    </header>
+
+    <section id="welcome">
+        <h2>Welcome 👋</h2>
+        <p>Use the search bar or filters to find a product. Click "Add to Cart" to test how online shopping works. Try adding your own products below!</p>
+    </section>
+
+    <section id="search-filter">
+        <label for="searchInput">🔍 Search:</label>
+        <input type="text" id="searchInput" placeholder="e.g. headphones, shirt...">
+        <label for="categoryFilter">📂 Category:</label>
+        <select id="categoryFilter">
+            <option value="">All</option>
+            <option value="electronics">Electronics</option>
+            <option value="clothing">Clothing</option>
+            <option value="books">Books</option>
+        </select>
+    </section>
+
+    <section id="category-images">
+        <div class="category-card" data-category="electronics">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Electronics">
+            <h3>Electronics</h3>
+        </div>
+        <div class="category-card" data-category="clothing">
+            <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Clothing">
+            <h3>Clothing</h3>
+        </div>
+        <div class="category-card" data-category="books">
+            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Books">
+            <h3>Books</h3>
+        </div>
+    </section>
+
+    <main>
+        <section id="product-list" class="product-grid"></section>
+    </main>
+
+    <aside id="cartSidebar">
+        <h2>Your Cart 🛒</h2>
+        <ul id="cartItems"></ul>
+        <p id="emptyCartMessage">Your cart is empty.</p>
+        <p><strong>Total:</strong> <span id="cartTotal">$0.00</span></p>
+        <button id="closeCart">Close Cart</button>
+        <button id="checkoutBtn">Checkout</button>
+    </aside>
+
+    <section id="add-product">
+        <h2>➕ Add New Product</h2>
+        <form id="productForm">
+    <input type="text" id="newName" placeholder="Product Name (e.g. Smartphone)" required>
+    <input type="text" id="newPrice" placeholder="Price (e.g. 19.99 - don't include $)" required>
+    <input type="text" id="newImage" placeholder="Image URL (e.g. https://example.com/image.jpg)" required>
+    <select id="newCategory" required>
+        <option value="">Select Category</option>
+        <option value="electronics">Electronics</option>
+        <option value="clothing">Clothing</option>
+        <option value="books">Books</option>
+    </select>
+    <button type="submit">Submit Product</button>
+</form>
+    </section>
+
+    <footer>
+        <p>© 2025 Jengakit |Your Best shopping Site</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
