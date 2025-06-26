@@ -1,12 +1,6 @@
 {
-  "name": "json-api",
-  "version": "1.0.0",
-  "description": "Fake API with json-server",
-  "main": "index.js",
- "scripts": {
-  "start": "json-server --watch db.json --port $PORT"
-},
-  "dependencies": {
-    "json-server": "^0.17.0"
+  "scripts": {
+    "start": "node server.js",  
+    "dev": "json-server --watch db.json --port 3000"
   }
 }
