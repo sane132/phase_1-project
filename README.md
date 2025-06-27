@@ -1,8 +1,8 @@
-Jengakit Shop - E-Commerce Web Application
-📌 Overview
+# Jengakit Shop - E-Commerce Web Application
+## 📌 Overview
 Jengakit Shop is a modern, responsive e-commerce web application built with HTML, CSS, and JavaScript. It features product listings, shopping cart functionality, wishlist capabilities, and product management tools.
 
-✨ Key Features
+## ✨ Key Features
 Product Catalog with search and category filtering
 
 Shopping Cart with quantity adjustment
@@ -17,7 +17,7 @@ Responsive Design works on all devices
 
 Interactive UI with notifications and modals
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 Frontend: HTML5, CSS3, JavaScript (ES6+)
 
 Styling: CSS Flexbox, Grid, Animations
@@ -28,7 +28,7 @@ Backend: JSON Server (mock API)
 
 Deployment: Render (for backend API)
 
-🚀 Getting Started
+## 🚀 Getting Started
 Prerequisites
 Modern web browser (Chrome, Firefox, Safari)
 
@@ -49,7 +49,7 @@ npm install -g json-server
 json-server --watch db.json --port 3000
 Open index.html in your browser.
 
-🌐 API Endpoints
+## 🌐 API Endpoints
 The application uses a mock API with these endpoints:
 
 GET /products - Fetch all products
@@ -60,7 +60,7 @@ PUT /products/:id - Update product
 
 DELETE /products/:id - Remove product
 
-🖥️ Project Structure
+## 🖥️ Project Structure
 text
 jengakit-shop/
 ├── index.html          # Main HTML file
@@ -84,14 +84,13 @@ json
     }
   ]
 }
-📝 License
-This project is licensed under the MIT License.
 
-🙏 Acknowledgments
+
+## 🙏 Acknowledgments
 Font Awesome for icons
 
 Unsplash for sample product images
 
 JSON Server for mock API functionality
 
-Happy Shopping! 🛍️
+## Happy Shopping! 🛍️
