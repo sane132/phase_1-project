@@ -28,27 +28,6 @@ Backend: JSON Server (mock API)
 
 Deployment: Render (for backend API)
 
-## 🚀 Getting Started
-Prerequisites
-Modern web browser (Chrome, Firefox, Safari)
-
-Node.js (for local development)
-
-Git (for version control)
-
-Installation
-Clone the repository:
-
-bash
-git clone https://github.com/yourusername/jengakit-shop.git
-cd jengakit-shop
-For local development with JSON Server:
-
-bash
-npm install -g json-server
-json-server --watch db.json --port 3000
-Open index.html in your browser.
-
 ## 🌐 API Endpoints
 The application uses a mock API with these endpoints:
 
